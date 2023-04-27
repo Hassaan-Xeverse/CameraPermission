@@ -3,6 +3,7 @@ import { View, Text, Button } from 'react-native';
 import { PERMISSIONS , request } from 'react-native-permissions';
 
 const App = () => {
+  //states
   const [permissionStatus, setPermissionStatus] = useState('');
 
   const requestCameraPermission = () => {
